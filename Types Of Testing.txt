@@ -1,0 +1,27 @@
+
+
+1.Unit Testing – Unit testing is the first level of testing in Software Testing and used to test individual units of source code.
+
+2. Shakeout Testing - It is done to make sure that applications under test is ready enough to start with the actual Functional/Regression test. Some of the validations are 1.APIs pointing to correct config urls of downstream/Upstream systems, end to end Application flow.
+
+3. Functional Testing – It is to make sure the newly implemented features/functionality of an Application is working as expected as per the User Story/Requirements. 
+
+4. Regression testing – It is a type of testing that is done to verify that a code change in the software does not impact the existing functionality of the product.
+
+5. Performance testing - The focus of Performance Testing is to check a 
+•	Speed - Determines whether the application responds quickly
+•	Scalability - Determines maximum user load the software application can handle.
+•	Stability - Determines if the application is stable under varying loads
+
+6. User Acceptance Testing – User Acceptance Testing  is conducted to determine if the requirements of a specification or functionality of an application met in the end user perspective.
+
+7. Sandbox Testing: Sandbox testing is nothing but a basic test done in sandbox clusters(Similar to Prod cluster) to make sure everything is fine just before the code being pushed to Production Clusters.
+P7 and P12
+
+8. Production Validation/Testing : A basic test to make sure the application functionality is working fine in the production Clusters. 
+P1,P2,P3,P11,P23.
+
+
+Thanks,
+Aarthi
+
