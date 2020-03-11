@@ -1,0 +1,86 @@
+CSI : Common Services Interface
+BOBPM : Back Office BPM
+FOBPM : Front Office BPM
+WFBPM : Work Flow BPM
+BRMS : Business Rules Management System
+FOM : Fallout management
+
+BOBPM:
+
+FifthGenDeviceProvisioning mS
+
+CSI - InquierAccountProfile, UpdateSubscriberProfile ,SendEmail,SendAccountNotification,SendSMS,AddNote
+
+
+-TLG having customer info, 
+Atlas - Publishing system
+CSI Gateway
+
+
+
+Systems :
+
+Atlas,Enabler,Uverse Enabler
+
+
+**********************
+FIfth
+ITP(IMEITriggerPlatform)
+
+
+
+
+
+
+
+
+
+
+FifthGenDeviceProvisioning  mS flow:
+
+ITP->Atlas->CSI GW-> BOBPM
+
+
+
+BOBPM: 
+
+FIfthGen -> Audit table(PENDING)-> MobilitySubscriberDetails(MSD)-> IAP(CSI API)->MSD->Fifthgen-> MobilitySubscriberTreatment(MST)->MobilityDeviceTreatmentRules(BRMS)->MST->parllel calls to treatments (CSI APIs)->DUCSDB (DTH table)->Audit (COMPLETE)
+
+
+
+Treatments:
+
+DUCSDB -Audt table
+
+parallel calls:
+
+AUDIT- COMPLETE
+NOTE(AddNote)
+FEATURE-(UdateSubscriberProfile)
+SWAPEQP (SwapEquipment)
+
+
+EMAIL,NOTIFY,SMS
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
